@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #0056b3; /* Duller blue for header and footer */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #e7f1ff;
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+}
+
+nav a {
+    color: #0056b3;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color:  #ffcc00;
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-area {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h3 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Elements */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contact List Styles */
+.search-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.search-form input {
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.contact-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.action-links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+/* Messages */
+.success {
+    color: #28a745;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #d4edda;
+    border-radius: 4px;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+}
+
